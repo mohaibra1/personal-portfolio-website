@@ -1,0 +1,49 @@
+
+html,body{
+    margin:0;
+   padding:0;
+   height:100%;
+}
+
+header{
+    background-color: black;
+
+}
+nav {
+    display:flex;
+}
+
+
+#logo {
+    color: white;
+    font-family: 'Space Mono', serif;
+}
+.list {
+    display: flex;
+    width: 1250px;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul li a{
+    color: white;
+    font-family: 'Space Mono', serif;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Space Mono', serif;
+    color: white;
+    margin: 10px;
+}
+
+footer {
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:black;
+}
