@@ -32,6 +32,48 @@ ul li a{
     text-decoration: none;
 }
 
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    width: 500px;
+}
+.content p {
+    font-family: 'Space Mono', serif;
+    font-size: 20px;
+}
+
+.pic{
+    
+}
+.pic img {
+    border-radius: 15px;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: -50px;
+}
+.projects {
+    font-family: 'Space Mono';
+    margin-left: 200px;
+}
+.projects h2 li{
+    font-family: 'Space Mono';
+    font-size: 20px;
+}
+.skills {
+    margin-left: 200px;
+}
+.skills i {
+    width: 150px;
+}
+
+.skills h2 {
+    font-family: 'Space Mono';
+    font-size: 20px;
+}
+
 footer p {
     text-align: center;
     font-size: 25px;
